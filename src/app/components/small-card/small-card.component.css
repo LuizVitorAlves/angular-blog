@@ -1,8 +1,9 @@
 .small-card__container{
   display: flex;
   flex-direction: row;
-  width: 700px;
+  width: 400px;
   margin-bottom: 10px;
+  margin-left: 8px;
 }
 
 .small-card__photo > img{
@@ -14,7 +15,11 @@
 .small-card__title {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: normal;
+}
+
+.small-card__title > h1{
+  font-size: 20px;
 }
 
 .separador{
